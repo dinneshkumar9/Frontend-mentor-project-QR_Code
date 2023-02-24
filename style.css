@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: #7e8899;
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+  --blue: #d4e0ee;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--blue);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  background-color: var(--White);
+}
+.qrCode img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.textBold {
+  font-family: "Outfit", sans-serif;
+  font-weight: bold;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: var(--Dark-blue);
+}
+
+.textpara {
+  font-family: "Outfit", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  margin: 10px 0;
+  color: var(--Light-gray);
+}
+
+footer {
+  margin-top: 2rem;
+  text-align: center;
+  width: 100%;
+}
+@media screen and (max-width: 425px) {
+  body {
+    margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--blue);
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    background-color: var(--White);
+  }
+  .qrCode img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .textBold {
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: var(--Dark-blue);
+  }
+
+  .textpara {
+    font-family: "Outfit", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 10px 0;
+    color: var(--Light-gray);
+  }
+  footer {
+  margin-top: 2rem;
+  text-align: center;
+  width: 100%;
+}
+}
